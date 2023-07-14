@@ -1445,5 +1445,19 @@ body {
 } */
 
 .footer-list-1{
-  margin: 0 100px;
+  padding: 0 50px;
+}
+
+@media (max-width:992px) {
+  .social-list-1 {
+    display: flex;
+  }
+
+  
+}
+
+@media (max-width:420px){
+  .heading-name{
+    font-size: 3rem;
+  }
 }
